@@ -12,3 +12,72 @@ p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+
+header {
+    height: 20vh;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #7ab8d7;
+    /* background-color: #6c9bf2; */
+    color: #342f2e;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: repeat(5, 1fr); */
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+section {
+    border: 1px solid #7ab8d7;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+section:hover {
+    background-color: #c1e3f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+a:visited,
+a {
+    color: rgb(34, 35, 41);
+}
+
+a:hover {
+    /* color: rgb(104, 101, 101); */
+    color: rgb(153, 152, 152);
+    font-weight: 800;
+}
+section h2 {
+    border: 1px solid #7ab8d7;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: #c1e3f4;
+}
+
+
+
+footer {
+    height: 10vh;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #7ab8d7;
+    color: #342f2e;
+}
