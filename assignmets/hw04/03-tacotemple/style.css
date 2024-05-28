@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    margin: 20px;
+}
+
+section {
+    border: 1px solid lightgray;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 20px;
+}
+
+section img {
+    grid-column: 3 / 4;
+}
